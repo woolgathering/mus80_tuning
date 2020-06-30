@@ -149,7 +149,7 @@ This should mean that if we take a pitch and go up by octaves on one hand, and o
 
 ---
 
-![bg 110%](/home/jacob/Documents/jacob/jobs/tuning/classes/class1/comma.png)
+![bg 90%](/home/jacob/Documents/jacob/jobs/tuning/classes/class1/comma.png)
 
 ---
 <!--
