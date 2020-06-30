@@ -4,8 +4,17 @@ b = Array.geom(13, 110, 1.5)
 s.boot;
 
 // high and low sounds
-(freq: 100, dur: 3).play;
-(freq: 1000, dur: 3).play;
+(freq: 300, dur: 3).play; (freq: 310, dur: 3).play;
+
+350/300
+
+(freq: 300, dur: 3).play;
+(freq: 300*(9/8), dur: 3).play;
+(freq: 3050, dur: 3).play;
+
+3050/3000
+
+ (freq: 317, dur: 3).play;
 
 // harmonic series
 ~harm = Array.fill(64, {|i| i = i+1; i*(24.midicps)}); // 64 harmonics
@@ -14,6 +23,10 @@ Pbind(\freq, Pseq(~harm), \dur, 0.5).play; // play the harmonic series starting 
 // pythagorean tuning
 ~et = Tuning.et12;
 ~py = Tuning.pythagorean;
+(
+  Pbind(\scale, Scale.major(~et), \degree, Pseq((0..7) ++ (6..0) ++ [\rest], 1), \dur, 1).play;
+  Pbind(\scale, Scale.major(~py), \degree, Pseq((0..7) ++ (6..0) ++ [\rest], 1), \dur, 1).play;
+);
 (
   Pbind(\scale, Scale.chromatic(~et), \degree, Pseq((0..12) ++ (11..0) ++ [\rest], 1), \dur, 1).play;
   Pbind(\scale, Scale.chromatic(~py), \degree, Pseq((0..12) ++ (11..0) ++ [\rest], 1), \dur, 1).play;
