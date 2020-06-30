@@ -15,8 +15,8 @@ Pbind(\freq, Pseq(~harm), \dur, 0.5).play; // play the harmonic series starting 
 ~et = Tuning.et12;
 ~py = Tuning.pythagorean;
 (
-	Pbind(\scale, Scale.chromatic(~et), \degree, Pseq((0..12) ++ (11..0) ++ [\rest], 1), \dur, 1).play;
-	Pbind(\scale, Scale.chromatic(~py), \degree, Pseq((0..12) ++ (11..0) ++ [\rest], 1), \dur, 1).play;
+  Pbind(\scale, Scale.chromatic(~et), \degree, Pseq((0..12) ++ (11..0) ++ [\rest], 1), \dur, 1).play;
+  Pbind(\scale, Scale.chromatic(~py), \degree, Pseq((0..12) ++ (11..0) ++ [\rest], 1), \dur, 1).play;
 );
 
 // wolf fifth (where the comma is placed)
