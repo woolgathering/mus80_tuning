@@ -5,13 +5,37 @@ _class: lead
 ---
 
 # <!-- fit --> __Tuning and Temperament__
-Music 80
+Music 80, Summer Session 1, 2020
 
 ---
 
 <!--
 paginate: true
 -->
+
+## Today's Class
+- Syllabus and Housekeeping
+- Basic musical terminology
+- The way we hear
+- The Harmonic Series
+  - Dealing with ratios
+- The comma
+
+---
+
+## Basic Musical Terminology
+- _Pitch_: the "highness" or "lowness" of a sound. Physically measured in Hertz (Hz) and given letter names in Western music.
+- _Interval_: the difference in pitch between two sounds.
+- _Consonance_ & _Dissonance_: the "roughness" of an interval. Consonant intervals sound "stable" while dissonant ones sound "unstable".
+- _Inversion_: the "flipping over" of an interval.
+- _Chord_: A set of notes and (therefore) intervals.
+
+<!-- If you definition of consonant and dissonant change throughout this course that is a VERY good thing! -->
+
+<!-- _footer: This will be more or less the extent of traditional musical terminology we will use in this course. -->
+
+
+---
 
 ![bg right 100%](https://lh3.googleusercontent.com/proxy/WcsxsafxsNJOCgc4ERoQgwKjIS3gcu75mV03VMTWhaJaVsavslk2wK6jwNbQQXv2SdO__54pig0hoekRIUF226WVb2VLD6yV-6E5)
 
@@ -157,7 +181,7 @@ _backgroundColor: #455a64
 _color: white
 -->
 
-Well it doesn't actually work out...
+Well, it doesn't actually work out...
 
 __2:1__: 110 Hz, 220 Hz, 440 Hz, 880 Hz, 1760 Hz, 3520 Hz, 7040 Hz, 14080 Hz, etc...
 
