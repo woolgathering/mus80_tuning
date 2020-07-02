@@ -57,7 +57,7 @@ The Greeks creating tunings by dividing a string into equal parts.
 
 ---
 
-### Constructing a Tetrachord
+#### Constructing a Tetrachord
 
 What is a tetrachord?
 - A set of four notes tuned within the interval 4:3.
