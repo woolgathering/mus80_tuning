@@ -100,8 +100,6 @@ _class: invert
 ## Listening
 [Harry Partch's Study on Olympos' Pentatonic](https://www.youtube.com/watch?v=BTz4hSQ61RM)
 
-[Michael Levy's Etude on Olympos' Pentatonic](https://michaellevy.bandcamp.com/track/etude-in-the-olympos-pentatonic-scale)
-
 <br/>
 - Olympos was a 6th century BC flutist and lyre player.
 
