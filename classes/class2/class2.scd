@@ -6,7 +6,7 @@ s.boot;
 
 ~pythagHeptatonic = Tuning([1/1, 9/8, 81/64, 4/3, 3/2, 27/16, 243/128].cents/100, 2.0)
 ~scale = Scale.chromatic(~pythagHeptatonic);
-~scale.cents.round(0.01)
+
 Pbind(\scale, ~scale, \degree, Pseq((0..7) ++ (6..0) ++ [\rest], 1), \dur, 0.5).play;
 Pbind(\scale, Scale.major, \degree, Pseq((0..7) ++ (6..0) ++ [\rest], 1), \dur, 0.5).play;
 
@@ -23,7 +23,7 @@ Pbind(\scale, Scale.major, \degree, 2, \dur, 1).play;
 // olympos
 ~olympos = Tuning([1/1, 9/8, 6/5, 3/2, 8/5].cents/100, 2.0)
 ~scale = Scale.chromatic(~olympos);
-Pbind(\scale, ~scale, \degree, Pseq((0..8) ++ (7..0) ++ [\rest], 1), \dur, 0.1).play;
+Pbind(\scale, ~scale, \degree, Pseq((0..8) ++ (7..0) ++ [\rest], 2), \dur, 0.05).play;
 
 // archytas
 ~archytas = Tuning([1/1, 28/27, 16/15, 4/3, 3/2, 14/9, 8/5].cents/100, 2.0)
