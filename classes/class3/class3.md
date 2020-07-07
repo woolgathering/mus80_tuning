@@ -90,11 +90,14 @@ Notice the different "flavors" of intervals. There are even more when accounting
 <!-- _footer: Did you catch the Partch quote from _Greek Studies_ in Variation V? -->
 
 ---
-![bg left](https://img.discogs.com/nepkN6hzELgnA3ClIEbg38OVX_Y=/fit-in/595x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1438859-1399293400-4111.jpeg.jpg)
+![bg left](https://stmedia.stimg.co/1008546711+2zeitgeist040619.JPG?fit=crop&crop=faces)
 
-#### Analysis
 
-[Harry Partch: Delusion of the Fury (1969)](https://www.youtube.com/watch?v=aMQ7oeIvhkA)
+#### Listening
+
+[Pauline Oliveros: Accordion & Voice, Horse Sings from Cloud (1982)](https://www.youtube.com/watch?v=uT20aS-NvOo)
+
+"[My instrument] is also tuned in just intonation: a five limit system in the left hand, a seven limit system in the right hand.""
 
 ---
 <!-- _class: invert -->
