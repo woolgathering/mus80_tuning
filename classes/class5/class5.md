@@ -52,8 +52,6 @@ What is a temperament anyway? What is a tuning?
 #### Tuning:
 1. A system whose intervals all can be expressed by rational numbers.
 
-<br/>
-
 #### Temperament:
 1. A system whose intervals cannot all be expressed by rational numbers.
 2. A system which "tempers" just intervals.
