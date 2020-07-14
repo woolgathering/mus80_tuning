@@ -14,15 +14,17 @@ paginate: true
 _class: invert
 -->
 
-![bg right](https://upload.wikimedia.org/wikipedia/commons/3/38/Harpsichord.9023840.jpg)
+<!-- ![bg right](https://upload.wikimedia.org/wikipedia/commons/3/38/Harpsichord.9023840.jpg) -->
 
 ## Today's Class
 - Where just intonation falls short
 - Temperament
   - What is temperament?
-- Meantone temperaments
-  - 1/4 comma
-  - 1/5 comma
+- 1/4 comma meantone temperament
+  - Building a 12-note scale
+  - How it it different than a just scale?
+- __Listening__: Mozart's Fantasie KV397 in Three Different Temperaments
+- __Listening__: Yale's Divinity School Meantone Organ
 
 ---
 
