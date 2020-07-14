@@ -49,11 +49,12 @@ x = m.p
 ~tuning = Scala("../../scl/lehman1.scl".resolveRelative); // Lehman's Bach
 
 // shift the fundamental of the scale by ~shift degrees (only works for positive numbers for now)
-~shift = 1; // shift the fundamental up by one semitone (C#)
-~pitches = (0..11).collect{|degree|
-	degree = degree-~shift;
-	~tuning.tuning[degree % ~tuning.size]-((degree % ~tuning.size)-1) + degree
-};
+~shift = 2; // shift the fundamental up by one semitone (C#)
+~pitches = {
+	var array = ((~tuning.tuning + ~shift) % 12).rotate(~shift);
+	~shift.do{|i| array[i] = (array[i]-12)%12};
+	array;
+}.value;
 ~tuning = Tuning(~pitches, 2, "Meantone on C#");
 
 y = x.iter.all((\scale: Scale.chromatic(~tuning), \stretch: 2, \delta: 0.5));
@@ -67,19 +68,3 @@ Pseq(y[118..133]).play(clock: TempoClock(0.5)); // major 7th chord only (slower)
 Pseq(y[182..]).play; // dimished chords
 
 Pseq(y[1181..]).play; // wtf
-
-p = Padd(\midinote, 1, Pseq(y)).play; // transposed up 1 semitone
-
-a = Scala("../../scl/vicentino1.scl".resolveRelative);
-b = a.scale.cents;
-p = b.cents.plot.plotMode_(\bars).domain_(nil)
-p = [b, Tuning.et12.cents.resamp0(36)].plot.plotMode_(\steps).plotColor_([Color.black, Color.red]);
-b
-Tuning.et12.cents.resamp0(36)
-
-Tuning.et12.cents
-p = [Tuning.mean4.cents, Tuning.et12.cents].plot.plotMode_(\steps).plotColor_([Color.black, Color.red]);
-Tuning.mean6.cents
-
-a = Scala("../../scl/lehman1.scl".resolveRelative);
-a.scale.tuning
