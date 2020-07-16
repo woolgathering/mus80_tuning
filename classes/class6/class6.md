@@ -106,7 +106,10 @@ Procedure:
 4.) The 3 fifths G# (Ab) – Eb – Bb – F short by 1/12 of the Pythagorean comma.
 
 ---
+![bg right](https://www.omifacsimiles.com/brochures/images/bach_wtc1.jpg)
 [Bradley Lehman - Bach: Fugue in F# minor, on harpsichord](https://www.youtube.com/watch?v=OMZODtaf4d4)
+
+
 [Fugue in Ab Major (BWV 886) in Five Different Temperaments](https://www.youtube.com/watch?v=AaDgJ_cyeOg)
 
 
