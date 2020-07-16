@@ -22,7 +22,7 @@ Pbind(\scale, Scale.chromatic(~tuning), \degree, r[5], \dur, 5, \root, -3).play;
 Pbind(\scale, Scale.chromatic(~tuning), \degree, r[3], \dur, 5, \root, -3).play; // Dmin
 
 
-~tuning = Tuning.mean5;
+~tuning = Tuning.mean4;
 s = [3, 3, 2, 0, 5, 3]; // soprano
 a = [0, 10-12, 10-12, 8-12, 0, 0]; // alto
 t = [7, 7, 5, 5, 8, 7]-12; // tenor
@@ -49,7 +49,7 @@ x = m.p
 ~tuning = Scala("../../scl/lehman1.scl".resolveRelative); // Lehman's Bach
 
 // shift the fundamental of the scale by ~shift degrees (only works for positive numbers for now)
-~shift = 2; // shift the fundamental up by one semitone (C#)
+~shift = 1; // shift the fundamental up by one semitone (C#)
 ~pitches = {
 	var array = ((~tuning.tuning + ~shift) % 12).rotate(~shift);
 	~shift.do{|i| array[i] = (array[i]-12)%12};
