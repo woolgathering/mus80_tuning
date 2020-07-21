@@ -14,19 +14,19 @@ paginate: true
 _class: invert
 -->
 
+![bg right](https://1millionmonkeystyping.files.wordpress.com/2017/11/screen-shot-2017-11-11-at-10-07-56-pm.png?w=300&h=266)
+
 ## Today's Class
-- What is equal temperament?
-  -  Historical precedents: Bali, China
+- What is equal temperament? (also called "equal divisions of the octave", EDO)
 - Easy math, hard to tune
 - Common types of equal temperament
-  - 12-tone, 19-tone, 24-tone, 31-tone
-- Ezra Sims: AGP174
+  - 12edo, 19edo, 24edo, 31edo
 
 ---
 ![bg left](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Comparison_of_equal_temperaments.png/1024px-Comparison_of_equal_temperaments.png)
 
 ### Equal Temperament
-- Equal division of the octave
+- Equal division of the octave (edo)
 - Known throughout history but not often used in the West until recently
 - Used (closely) in China, Java, and other parts of Asia
 - Essentially a system of approximation
@@ -34,14 +34,14 @@ _class: invert
 ---
 <!-- _class: invert -->
 
-### 12-Tone Equal Temperament
-- The dominant system of tuning in the West
-- Essentially, it is a Pythagorean scale with each fifth tempered by 1/12 of a Pythagorean comma
+### 12-tone Equal Temperament
+- The dominant system of tuning in the West.
+- Essentially, it is a Pythagorean scale with each fifth tempered by 1/12 of a Pythagorean comma.
 - If $s$ is the ratio of a semitone, then:
 
 $$
 s \times s \times s \times s \times s \times s \times s \times s \times s \times s \times s \times s = s^{12} = 2 \\
-s = \sqrt[12]{2}
+s = \sqrt[12]{2} = 100 \text{ cents}
 $$
 
 So the ratio of each semitone is a twelfth root of two. But how did we figure this out before accurate means of measuring frequency?
@@ -60,7 +60,7 @@ Recall that the geometric mean is defined as the $n$th root of the product of $n
 
 ---
 ### 24-tone Equal Temperament
-- $s = \sqrt[24]{2}$
+- $s = \sqrt[24]{2} = 50 \text{ cents}$
 - Simply, these are quarter-tones and are very common in contemporary music.
 - They even have their own accidentals: ![height:190](https://www.rpmseattle.com/of_note/wp-content/uploads/2012/06/03_QT_Symbols-500x171.png)
 - __Listen:__ [Gérard Grisey - Vortex Temporum (1995)](https://www.youtube.com/watch?v=rXaNFBzgDWI)
@@ -79,7 +79,7 @@ Recall that the geometric mean is defined as the $n$th root of the product of $n
 
 ---
 ### 19-tone equal temperament
-- $s = \sqrt[19]{2}$
+- $s = \sqrt[19]{2} \approx 63.16 \text{ cents}$
 - Sounds weird but actually works out well.
 - Has very close to just ($\frac{6}{5}$) minor thirds (less than 1 cent off).
 - Can use the same Western system of notation, only accidentals are different notes (Ab ≠ G#), except for those notes which are directly adjacent, a note is added (E - E#/Fb - F).
@@ -94,10 +94,10 @@ Recall that the geometric mean is defined as the $n$th root of the product of $n
 ---
 <!-- _class: invert -->
 ### 31-tone Equal Temperament
-- - $s = \sqrt[31]{2}$
-- Actually appeared quite early.
-  - The fifth of meantone (1/4 comma) is almost exactly the same as the fifth in 31-TeT.
-  - Christiaan Huygens (17th century) wrote specifically on 31-TeT.
+- - $s = \sqrt[31]{2} \approx 38.702 \text{ cents}$
+- Actually theorized quite early.
+  - Closely related to 1/4 tone meantone.
+  - Christiaan Huygens (17th century) wrote specifically on 31edo.
 - __Listen:__ [Fabio Costa: ...and while there he sighs... (2017)](https://www.youtube.com/watch?v=pSgGgb7y-F8)
   - Played on the Fokker Organ
 
@@ -119,10 +119,10 @@ Recall that the geometric mean is defined as the $n$th root of the product of $n
 ---
 <!-- _class: invert -->
 
-#### 31-TeT (continued)
-By using subsets (modes) of the 31edo system one is able to approximate many different tunings:
+#### 31edo (continued)
+By using subsets (modes) of the 31edo system, one is able to approximate many different tunings:
 - 1/4 comma meantone
-  - 31-TeT has the property such that four stacked fifths are equal to two octaves plus a $\frac{5}{4}$.
+  - 31edo has the property such that four stacked fifths are equal to two octaves plus a $\frac{5}{4}$.
 - Closely approximates 11edo
 - Vicentino's usual Archiembalo  tuning
 - 7-limit just intonation (to a degree)
@@ -136,7 +136,7 @@ By using subsets (modes) of the 31edo system one is able to approximate many dif
 ---
 <!-- _class: invert -->
 
-![bg height:700](/home/jacob/Documents/jacob/jobs/tuning/classes/class7/31edo-12edo-7lim.png)
+![bg height:700](/home/jacob/Documents/jacob/jobs/tuning/classes/class7/31edo-7lim.png)
 
 ---
 <!-- _class: lead -->
